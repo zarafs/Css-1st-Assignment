@@ -1,0 +1,97 @@
+body{
+    background-color: wheat;
+}
+.navbar{
+    width: 100;
+    background-color: #1E90FF;
+    overflow: auto;   
+}
+/*-------Navbar Links------*/
+
+.navbar a{
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color:white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color: yellow;
+}
+
+.active{
+    background-color: transparent;
+}
+@media screen and (max-width:500px){
+
+    .navbar a{
+        float:none;
+        display: block;
+    }   
+}
+.left{
+    width: 10%;
+    height: 80%;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color: rgba(5, 247, 5, 0.623);
+    float: left;
+}
+h1{
+    padding: 4px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+}
+.tablecenter{
+    width: 50%;
+    height: 30%;
+    border: 2px;
+    border-color: black;
+    padding: 10px;
+  
+}
+th{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blue;
+    font-size: x-large;
+    padding: 10px;
+    text-align: center;
+}
+.two{
+    padding: auto;
+    text-align: center;
+    background-color: rgb(35, 216, 216)
+
+}
+.three{
+    padding: auto;
+    text-align: center;
+    background-color: rgb(236, 236, 115);
+}
+.four{
+    padding: auto;
+    text-align: center;
+    background-color: rgb(231, 164, 186);
+    
+}
+.footer{
+    padding: auto;
+    font-size: medium;
+    color: black;
+    background-color: rgb(175, 157, 157);
+}
+#button{
+    padding: 10px;
+    margin-top: 2px;
+    float: right-bottom;
+    border-radius: 40px;
+}
+.green{
+    background-color: green;
+}
+.red{
+    background-color: red;
+}
